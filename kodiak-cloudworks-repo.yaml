@@ -10,8 +10,9 @@ clusters:
   databases:
   DevOps:
   key-value-stores: 
-  - redis 
+  - redis
   - cassandra
+  
   storage:
   platforms:
   lambdafire:
