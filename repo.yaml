@@ -2,14 +2,14 @@ version:      1
 update-date:  6.1.2017
 
 clusters:
-  big-data:
-  cloud:
+  big-data:     3
+  cloud:        2
   custom:
   databases:
   DevOps:
   key-value-stores: 
-  - redis :     
-  - cassandra:  
+  - redis :     1
+  - cassandra:  1
   
   storage:
   platforms:
