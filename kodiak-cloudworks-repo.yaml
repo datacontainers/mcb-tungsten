@@ -1,0 +1,24 @@
+cloudworks-repo:
+    version: 		1
+    update-date: 	6.1.2017
+    
+
+clusters:
+	big-data:
+	cloud:
+	custom:
+	databases:
+	DevOps:
+	key-value-stores:
+	storage:
+	
+	
+platforms:
+	lambdafire:
+
+benchmark:
+	ycsb:
+	
+	
+trial-release:
+	
