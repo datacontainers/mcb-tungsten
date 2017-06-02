@@ -1,7 +1,5 @@
-cloudworks-repo:
-    version:      1
-    update-date:  6.1.2017
-    
+version:      1
+update-date:  6.1.2017
 
 clusters:
   big-data:
@@ -10,8 +8,8 @@ clusters:
   databases:
   DevOps:
   key-value-stores: 
-  - redis
-  - cassandra
+  - redis :     
+  - cassandra:  
   
   storage:
   platforms:
