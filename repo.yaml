@@ -1,5 +1,5 @@
 version:      1
-update-date:  6.1.2017
+updated:    6.2.2017
 
 clusters:
   big-data:     3
@@ -8,9 +8,9 @@ clusters:
   databases:
   DevOps:
   key-value-stores: 
-  - redis :
-  - cassandra :
-  - riak :
+  - kvs :  redis 
+  - kvs :  cassandra
+  - kvs : riak 
 
   
   storage:
