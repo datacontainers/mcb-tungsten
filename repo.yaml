@@ -11,11 +11,10 @@ clusters:
   - redis :
   - cassandra :
   - riak      :
-
   
-  storage:
-  platforms:
-  lambdafire:
+storage:
+platforms:
+lambdafire:
 
 benchmark:
   ycsb:
