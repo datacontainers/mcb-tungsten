@@ -7,7 +7,7 @@ clusters:
   - logstash  :
   - ELK       :
   - Generic   : 
-  - HDP (Hortonworks) :
+  - HDP-Hortonworks :
   
   cloud :        
   - Red Hat Openshift :
