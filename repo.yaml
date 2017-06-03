@@ -6,6 +6,8 @@ clusters:
   - SMACK     :
   - logstash  :
   - ELK       :
+  - Generic   : 
+  - HDP (Hortonworks) :
   
   cloud :        
   - Red Hat Openshift :
@@ -13,17 +15,14 @@ clusters:
   - DCOS Community Edition     : 
   - Logical hosts cluster   : 
   - Docker swarm clusters   :
-  
-  custom:
-  - Cluster of Hosts      :
-  - Docker ready Cluster  :
-  
+    
   databases:
   - MyQL cluster          :
   - MariaDB Columnstore   : 
   - Clickhouse            :
   
   hdfs  :
+  - standard  :
   - spark :
   - druid :
   
@@ -37,7 +36,7 @@ clusters:
   storage:
   - vNAS :  cw-vnas-template
   - ceph :  cw-ceph-template
-  - hdfs :
+  - hdfs :  cw-hdfs-standard
   
   platforms:
   - lambdafire  :
