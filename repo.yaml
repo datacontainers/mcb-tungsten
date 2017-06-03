@@ -3,7 +3,11 @@ updated:    6.2.2017
 
 clusters:
   big-data:
-  cloud:        2
+  cloud:        
+  - OPenshift : 
+  - DCOS Enterprise Edition      : 
+  - DCOS Compmunity Edition     : 
+  - Bones     : 
   custom:
   databases:
   DevOps:
