@@ -19,6 +19,7 @@ clusters:
 
 benchmark:
   ycsb:
+  terasort :
   
 trial-release:
 
