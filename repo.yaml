@@ -7,9 +7,8 @@ clusters:
   custom:
   databases:
   DevOps:
-  key-value-stores: 
-  - redis :     1
-  - cassandra:  1
+  key-value-stores: redis, cassandra, riak
+
   
   storage:
   platforms:
