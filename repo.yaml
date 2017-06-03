@@ -7,6 +7,10 @@ clusters:
   custom:
   databases:
   DevOps:
+  hdfs  :
+  - spark :
+  - druid :
+  
   key-value-stores: 
   - redis :
   - cassandra :
