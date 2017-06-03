@@ -8,9 +8,9 @@ clusters:
   databases:
   DevOps:
   key-value-stores: 
-  - kvs :  redis 
-  - kvs :  cassandra
-  - kvs : riak 
+  - redis :
+  - cassandra :
+  - riak      :
 
   
   storage:
