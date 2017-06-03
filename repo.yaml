@@ -12,13 +12,17 @@ clusters:
   - cassandra :
   - riak      :
   
-storage:
-platforms:
-lambdafire:
+  storage:
+  - vNAS :
+  - ceph :
+  - hdfs :
+  
+  platforms:
+  lambdafire:
 
-benchmark:
-  ycsb:
-  terasort :
+  benchmark:
+  - ycsb:
+  - terasort :
   
 trial-release:
 
