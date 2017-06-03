@@ -11,6 +11,8 @@ clusters:
   - redis :
   - cassandra :
   - riak      :
+  - memcache  :
+  - couchbase :
   
   storage:
   - vNAS :
