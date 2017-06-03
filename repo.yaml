@@ -11,8 +11,14 @@ clusters:
   - Docker swarm clusters   :
   
   custom:
+  - Cluster of Hosts      :
+  - Docker ready Cluster  :
+  
   databases:
-  DevOps:
+  - MyQL cluster
+  - MariaDB Columnstore
+  - Clickhouse
+  
   hdfs  :
   - spark :
   - druid :
@@ -31,11 +37,12 @@ clusters:
   - hdfs :
   
   platforms:
-  lambdafire:
+  - lambdafire  :
 
   benchmark:
   - ycsb:
   - terasort :
   
 trial-release:
+  - Kodiak-700  :
 
