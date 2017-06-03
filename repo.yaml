@@ -3,6 +3,10 @@ updated:    6.3.2017
 
 clusters:
   big-data:
+  - SMACK     :
+  - logstash  :
+  - ELK       :
+  
   cloud :        
   - Red Hat Openshift :
   - DCOS Enterprise Edition      : 
@@ -22,7 +26,6 @@ clusters:
   hdfs  :
   - spark :
   - druid :
-  - SMACK :
   
   key-value-stores: 
   - redis :
