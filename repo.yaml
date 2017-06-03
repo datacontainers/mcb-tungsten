@@ -4,10 +4,10 @@ updated:    6.2.2017
 clusters:
   big-data:
   cloud :        
-  - Openshift : 
   - DCOS Enterprise Edition      : 
   - DCOS Compmunity Edition     : 
-  - Bones (barebone nodes)    : 
+  - Bones barebone nodes   : 
+  
   custom:
   databases:
   DevOps:
