@@ -2,7 +2,7 @@ version:      1
 updated:    6.2.2017
 
 clusters:
-  big-data:     3
+  big-data:
   cloud:        2
   custom:
   databases:
@@ -10,6 +10,7 @@ clusters:
   hdfs  :
   - spark :
   - druid :
+  - SMACK :
   
   key-value-stores: 
   - redis :
