@@ -4,7 +4,7 @@ updated:    6.2.2017
 clusters:
   big-data:
   cloud :        
-  - Red Hat Openshift
+  - Red Hat Openshift :
   - DCOS Enterprise Edition      : 
   - DCOS Community Edition     : 
   - Bones barebone nodes   : 
