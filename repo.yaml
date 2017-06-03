@@ -7,7 +7,8 @@ clusters:
   - Red Hat Openshift :
   - DCOS Enterprise Edition      : 
   - DCOS Community Edition     : 
-  - Bones barebone nodes   : 
+  - Logical hosts cluster   : 
+  - Docker swarm clusters   :
   
   custom:
   databases:
