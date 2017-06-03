@@ -34,9 +34,9 @@ clusters:
   - couchbase :
   
   storage:
-  - vNAS :  cw-vnas-template
-  - ceph :  cw-ceph-template
-  - hdfs :  cw-hdfs-standard
+  - vNAS :  cw-vnas.yaml
+  - ceph :  cw-ceph.yaml
+  - hdfs :  cw-hdfs.yaml
   
   platforms:
   - lambdafire  :
