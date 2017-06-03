@@ -15,9 +15,9 @@ clusters:
   - Docker ready Cluster  :
   
   databases:
-  - MyQL cluster
-  - MariaDB Columnstore
-  - Clickhouse
+  - MyQL cluster          :
+  - MariaDB Columnstore   : 
+  - Clickhouse            :
   
   hdfs  :
   - spark :
