@@ -35,8 +35,8 @@ clusters:
   - couchbase :
   
   storage:
-  - vNAS :
-  - ceph :
+  - vNAS :  cw-vnas-template
+  - ceph :  cw-ceph-template
   - hdfs :
   
   platforms:
