@@ -49,6 +49,8 @@ memcloud  :
 # StorageCloud services may be similar or different
 storagecloud :
   databases:
+  - SQL server 2017 linux :
+  - MongoDB               :
   - MyQL cluster          :
   - MariaDB Columnstore   : 
   - Clickhouse            :
@@ -61,10 +63,11 @@ storagecloud :
   - couchbase :
   
   storage:
-  - vNAS :  cw-vnas.yaml
+  - vNAS :  cw-sc-vnas.yaml
   - ceph :  cw-ceph.yaml
   - hdfs :  cw-hdfs.yaml
   - glusterfs:  
+  - minio :
   
   platforms:
   - lambdafire  :

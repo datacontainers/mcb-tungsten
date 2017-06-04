@@ -1,0 +1,26 @@
+#
+#   Module: cw-vnas.yaml
+#
+#   Applies to both memcloud and storagecloud
+#
+#
+#
+version:      1
+updated:    6.3.2017
+contact:    support@kodiakdata.com
+
+template  : cw-mc-vnas-10.xml
+
+# params can be changed by cloudworks
+params  : 
+  hosts : 1
+  image :
+  vcpu  : 4
+  ram   : 8
+  boot  : 25
+  zil   : 0
+  l2arc : 0
+  datadiskset :
+  - count   : 6
+  - size    : 120
+
