@@ -23,4 +23,6 @@ params  :
   datadiskset :
   - count   : 6
   - size    : 120
+  - count   : 2
+  - size   : 50
 
