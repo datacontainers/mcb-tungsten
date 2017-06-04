@@ -20,9 +20,17 @@ params  :
   boot  : 25
   zil   : 0
   l2arc : 0
-  datadiskset :
-  - count   : 6
-  - size    : 120
-  - count   : 2
-  - size   : 50
+  
+  # Disk organization
+  datadisksets :
+    dataset0 :
+    - count   : 6
+    - size    : 120
+    dataset1 :
+    - count   : 2
+    - size    : 50  
+    ZIL :
+    - count   : 1
+    - size    : 10  
+
 
