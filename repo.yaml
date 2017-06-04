@@ -1,7 +1,8 @@
 version:      1
 updated:    6.3.2017
 
-clusters:
+# Memcloud services 
+memcloud  : 
   big-data:
   - SMACK     :
   - logstash  :
@@ -44,6 +45,30 @@ clusters:
   benchmark:
   - ycsb:
   - terasort :
+  
+# StorageCloud services may be similar or different
+storagecloud :
+  databases:
+  - MyQL cluster          :
+  - MariaDB Columnstore   : 
+  - Clickhouse            :
+  
+  key-value-stores: 
+  - redis     :
+  - cassandra :
+  - riak      :
+  - memcache  :
+  - couchbase :
+  
+  storage:
+  - vNAS :  cw-vnas.yaml
+  - ceph :  cw-ceph.yaml
+  - hdfs :  cw-hdfs.yaml
+  - glusterfs:  
+  
+  platforms:
+  - lambdafire  :
+
   
 trial-release:
   - Kodiak-700  :
