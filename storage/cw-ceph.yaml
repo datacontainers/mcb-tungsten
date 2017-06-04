@@ -1,5 +1,5 @@
 #
-#   Module: cw-vnas.yaml
+#   Module: cw-ceph.yaml
 #
 #   Applies to both memcloud and storagecloud
 #
@@ -9,11 +9,11 @@ version:      1
 updated:    6.4.2017
 contact:    support@kodiakdata.com
 
-template  : cw-mc-vnas-10.xml
+template  : cw-mc-ceph-10.xml
 
 # params can be changed by cloudworks
 params  : 
-  hosts : 1
+  hosts : 12
   image :
   vcpu  : 4
   ram   : 8
@@ -21,16 +21,5 @@ params  :
   zil   : 0
   l2arc : 0
   
-  # Disk organization
-  datadisksets :
-    dataset0 :
-    - count   : 6
-    - size    : 120
-    dataset1 :
-    - count   : 2
-    - size    : 50  
-    ZIL :
-    - count   : 1
-    - size    : 10  
-# -- end of params
+ # -- end of params
 
