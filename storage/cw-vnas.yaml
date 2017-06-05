@@ -10,8 +10,8 @@ updated:    6.5.2017
 contact:    support@kodiakdata.com
 
 templates  : 
-  - default : cw-vNAS.xml 
-  - hybrid  : cw-vNAS-H.xml 
+  - cw-vNAS.xml 
+  - cw-vNAS-H.xml 
 
 # params can be changed by cloudworks
 params  : 
