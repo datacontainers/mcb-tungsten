@@ -10,8 +10,18 @@ updated:    6.5.2017
 contact:    support@kodiakdata.com
 
 templates  : 
-  - cw-vNAS.xml 
-  - cw-vNAS-H.xml 
+  standard  : 
+  - name  : cw-vNAS.xml
+  - hosts : 3
+  - image :
+  - vcpu  : 4
+  - ram   : 6
+  - boot  : 15
+  - zil   : 0 10
+  - l2arc : 0, 10
+  
+  hybrid    : 
+  - name  : cw-vNAS-H.xml 
 
 # params can be changed by cloudworks
 params  : 
