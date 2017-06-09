@@ -5,8 +5,8 @@
 #
 #
 #
-version:      1
-updated:    6.5.2017
+version:    0.3
+updated:    6.8.2017
 contact:    support@kodiakdata.com
 
 templates  : 
@@ -17,7 +17,7 @@ templates  :
   - vcpu  : 4
   - ram   : 6
   - boot  : 15
-    datadisksets :
+  - datadisksets :
       dataset0 :
       - count   : 6
       - size    : 120
