@@ -12,16 +12,34 @@ contact:    support@kodiakdata.com
 templates  : 
   standard  : 
   - name  : cw-vNAS.xml
-  - hosts : 3
+  - hosts : 1
   - image :
   - vcpu  : 4
   - ram   : 6
   - boot  : 15
-  - zil   : 0 10
-  - l2arc : 0, 10
+    datadisksets :
+      dataset0 :
+      - count   : 6
+      - size    : 120
+      dataset1 :
+      - count   : 2
+      - size    : 50  
+      ZIL :
+      - count   : 1
+      - size    : 10  
+  
+
   
   hybrid    : 
   - name  : cw-vNAS-H.xml 
+  - hosts : 1
+  - image :
+  - vcpu  : 4
+  - ram   : 6
+  - boot  : 15
+  - zil   : 10
+  - l2arc : 10
+  
 
 # params can be changed by cloudworks
 params  : 
