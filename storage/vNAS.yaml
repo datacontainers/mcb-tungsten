@@ -9,10 +9,11 @@ version:    0.3
 updated:    6.8.2017
 contact:    support@kodiakdata.com
 
-templates  : 
-  - # First template
-    name  : standard
-    filename  : cw-vNAS.xml
+templates  :
+-
+  name  : standard
+  filename  : cw-vNAS.xml
+  params :
     hosts : 1
     image :
     vcpu  : 4
@@ -25,10 +26,10 @@ templates  :
     - dataset1 :
         count   : 2
         size    : 50  
-
-  - # Second template -
-    name  : hybrid
-    filename  : cw-vNASH.xml
+-
+  name  : hybrid
+  filename  : cw-vNASH.xml
+  params:
     hosts : 1
     image :
     vcpu  : 4
