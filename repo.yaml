@@ -36,19 +36,8 @@ memcloud  :
   
   storage:
   - vNAS :
-      name  : standard (all flash)
-      filename  : cw-vNAS
-    
-    
-  - ceph :  
-      name  : standard (all flash)
-      filename  : cw-ceph
- 
+  - ceph :
   - hdfs :  
-    - 
-      name  : standard (all flash)
-      filename  : cw-hdfs
- 
   
   platforms:
   - lambdafire  :
