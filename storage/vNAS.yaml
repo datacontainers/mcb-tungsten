@@ -15,10 +15,8 @@ templates  :
   filename  : cw-vNAS.xml
   params :
     hosts : 1
-    image :
     vcpu  : 4
     ram   : 6
-    boot  : 15
     datadisksets :
     - dataset0 :
         count   : 6
