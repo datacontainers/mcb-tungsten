@@ -22,8 +22,8 @@ templates  :
         - count   : 6
         - size    : 120
       - dataset1 :
-        - count   : 2
-      -  size    : 50  
+        count   : 2
+        size    : 50  
 
 
   
