@@ -1,5 +1,5 @@
-version:      1
-updated:    6.3.2017
+version:      0.5
+updated:    6.9.2017
 
 # Memcloud services 
 memcloud  : 
@@ -18,9 +18,23 @@ memcloud  :
    
 # StorageCloud services may be similar or different
 storagecloud :
-
-  
   storage:
-  - vNAS :  cw-sc-vnas.yaml
-  - ceph :  cw-ceph.yaml
-  - hdfs :  cw-hdfs.yaml
+  - jbod  : [standard]
+  - vNAS  : [standard, hybrid]
+  - gluster : [standalone gluster-docker-swarm-bootstrap ]
+  - ceph  : [test-drive, certification, production-ceph-core]
+  - gpfs  : [standard ]
+
+  databases:
+  - SQL server 2017 linux : [coming soon]
+  - MongoDB               : [standard ]
+  - MyQL                  : [ default-single-node, 3-node-cluster ]
+  - MariaDB               : [ default-engine, +columnstore ]
+  - Clickhouse            : [ test-drive, standard ]
+  
+  key-value-stores: 
+  - redis     : [ standard, cluster ]
+  - cassandra : [ standard-3-node ]
+  - riak      : [ standard ]
+  - memcache  : [ standard-fixed, autoscaling ]
+  - couchbase : [ standard ]

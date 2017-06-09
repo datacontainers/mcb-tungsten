@@ -1,0 +1,56 @@
+version:      1
+updated:    6.3.2017
+
+# Memcloud services 
+memcloud  : 
+  
+  cloud :        
+  - Red Hat Openshift :
+  - DCOS            : [ Enterprise Edition, Community Edition ] 
+  - Kubernetes      : [ miniKube, standard ]
+  - Hosts cluster   : 
+  - Docker swarm    :
+    
+  databases:
+  - MyQL cluster          :
+  - MariaDB Columnstore   : 
+  - Clickhouse            :
+  
+  
+  key-value-stores: 
+  - redis :
+  - cassandra : [standard ]
+  - riak      :
+  - memcache  :
+  - couchbase :
+  
+  storage:
+  - jbod  : [standard]
+  - vNAS  : [standard, hybrid]
+  - ceph  : [test-drive, certification, production-ceph-core]
+  - hdfs  : [apache, horton, cloudera, mapr]
+  
+  platforms:
+  - lambdafire  :
+
+  benchmark:
+  - ycsb:
+  - terasort :
+  
+# StorageCloud services may be similar or different
+
+  
+  storage:
+  - vNAS :  cw-sc-vnas.yaml
+  - ceph :  cw-ceph.yaml
+  - hdfs :  cw-hdfs.yaml
+  - glusterfs:  
+  - minio :
+  
+  platforms:
+  - lambdafire  :
+
+  
+trial-release:
+  - Kodiak-700  :
+
