@@ -11,7 +11,7 @@ contact:    support@kodiakdata.com
 
 templates  : 
   - standard  : 
-      name  : cw-vNAS.xml
+      filename  : cw-vNAS.xml
       hosts : 1
       image :
       vcpu  : 4
@@ -19,23 +19,12 @@ templates  :
       boot  : 15
       datadisksets :
         - dataset0 :
-          - count   : 6
-          - size    : 120
+            count   : 6
+            size    : 120
         - dataset1 :
-          - count   : 2
-          - size    : 50  
+            count   : 2
+            size    : 50  
 
 
-  
-  - hybrid    : 
-      name  : cw-vNAS-H.xml 
-      hosts : 1
-      image :
-      vcpu  : 4
-      ram   : 6
-      boot  : 15
-      zil   : 10
-      l2arc : 10
-  
-
+# end of cw-vnas.yaml
 
