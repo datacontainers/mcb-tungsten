@@ -10,8 +10,7 @@ updated:    6.8.2017
 contact:    support@kodiakdata.com
 
 templates  :
--
-  name  : standard
+- name  : standard
   filename  : cw-vNAS.xml
   params :
     hosts : 1
@@ -24,8 +23,11 @@ templates  :
     - dataset1 :
         count   : 2
         size    : 50  
--
-  name  : hybrid
+        
+        
+        
+        
+- name  : hybrid
   filename  : cw-vNASH.xml
   params:
     hosts : 1
