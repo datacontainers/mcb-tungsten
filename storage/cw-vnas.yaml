@@ -18,12 +18,12 @@ templates  :
   - ram   : 6
   - boot  : 15
   - datadisksets :
-      dataset0 :
-      - count   : 6
-      - size    : 120
-      dataset1 :
-      - count   : 2
-      - size    : 50  
+      - dataset0 :
+        - count   : 6
+        - size    : 120
+      - dataset1 :
+        - count   : 2
+      -  size    : 50  
 
 
   
