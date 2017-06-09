@@ -27,15 +27,15 @@ templates  :
 
 
   
-  hybrid    : 
-  - name  : cw-vNAS-H.xml 
-  - hosts : 1
-  - image :
-  - vcpu  : 4
-  - ram   : 6
-  - boot  : 15
-  - zil   : 10
-  - l2arc : 10
+  - hybrid    : 
+      name  : cw-vNAS-H.xml 
+      hosts : 1
+      image :
+      vcpu  : 4
+      ram   : 6
+      boot  : 15
+      zil   : 10
+      l2arc : 10
   
 
 
