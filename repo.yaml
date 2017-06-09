@@ -14,7 +14,7 @@ memcloud  :
   - Red Hat Openshift :
   - DCOS Enterprise Edition      : 
   - DCOS Community Edition     : 
-  - Logical hosts cluster   : 
+  - Hosts cluster   : 
   - Docker swarm clusters   :
     
   databases:
@@ -35,9 +35,10 @@ memcloud  :
   - couchbase :
   
   storage:
-  - vNAS : [standard, hybrid]
-  - ceph : [test-drive, certification, production-ceph-core]
-  - hdfs : [apache, horton, cloudera, mapr]
+  - jbod  : [standard]
+  - vNAS  : [standard, hybrid]
+  - ceph  : [test-drive, certification, production-ceph-core]
+  - hdfs  : [apache, horton, cloudera, mapr]
   
   platforms:
   - lambdafire  :
