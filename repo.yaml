@@ -35,9 +35,20 @@ memcloud  :
   - couchbase :
   
   storage:
-  - vNAS :  cw-vnas.yaml
-  - ceph :  cw-ceph.yaml
-  - hdfs :  cw-hdfs.yaml
+  - vNAS :
+      name  : standard (all flash)
+      filename  : cw-vNAS
+    
+    
+  - ceph :  
+      name  : standard (all flash)
+      filename  : cw-ceph
+ 
+  - hdfs :  
+    - 
+      name  : standard (all flash)
+      filename  : cw-hdfs
+ 
   
   platforms:
   - lambdafire  :
