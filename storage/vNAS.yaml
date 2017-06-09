@@ -11,7 +11,7 @@ contact:    support@kodiakdata.com
 
 templates  : 
   - # First template
-    name  : standard (all flash)
+    name  : standard
     filename  : cw-vNAS.xml
     hosts : 1
     image :
@@ -27,7 +27,7 @@ templates  :
         size    : 50  
 
   - # Second template -
-    name  : hybrid (flash+HDD)
+    name  : hybrid
     filename  : cw-vNASH.xml
     hosts : 1
     image :
