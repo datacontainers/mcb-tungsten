@@ -1,0 +1,46 @@
+#
+#   Module: vnas.yaml
+#
+#   Applies to both memcloud and storagecloud
+#
+#
+#
+version:    0.3
+updated:    6.8.2017
+contact:    support@kodiakdata.com
+
+templates  : 
+  - # First template
+    name  : standard (all flash)
+    filename  : cw-vNAS.xml
+    hosts : 1
+    image :
+    vcpu  : 4
+    ram   : 6
+    boot  : 15
+    datadisksets :
+    - dataset0 :
+        count   : 6
+        size    : 120
+    - dataset1 :
+        count   : 2
+        size    : 50  
+
+  - # Second template -
+    name  : hybrid (flash+HDD)
+    filename  : cw-vNASH.xml
+    hosts : 1
+    image :
+    vcpu  : 4
+    ram   : 6
+    boot  : 15
+    datadisksets :
+    - dataset0 :
+        count   : 6
+        size    : 120
+    - dataset1 :
+        count   : 2
+        size    : 50 
+
+# end of cw-vnas.yaml
+
