@@ -9,8 +9,7 @@ version:    0.3
 updated:    6.8.2017
 contact:    support@kodiakdata.com
 
-templates  :
-- name  : standard
+standard  :
   filename  : cw-vNAS.xml
   params :
     hosts : 1
@@ -27,7 +26,7 @@ templates  :
         
         
         
-- name  : hybrid
+hybrid  :
   filename  : cw-vNASH.xml
   params:
     hosts : 1
