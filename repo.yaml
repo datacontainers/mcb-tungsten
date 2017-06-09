@@ -35,9 +35,9 @@ memcloud  :
   - couchbase :
   
   storage:
-  - vNAS :
-  - ceph :
-  - hdfs :  
+  - vNAS : [standard, hybrid]
+  - ceph : [test-drive, certification, production-ceph-core]
+  - hdfs : [apache, horton, cloudera, mapr]
   
   platforms:
   - lambdafire  :
