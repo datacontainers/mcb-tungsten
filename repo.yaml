@@ -4,32 +4,28 @@ updated:    6.3.2017
 # Memcloud services 
 memcloud  : 
   big-data:
-  - SMACK     :
+  - SMACK     :       [ standard ]
   - logstash  :
   - ELK       :
-  - Generic   : 
-  - HDP-Hortonworks :
+  - hdfs-big-data   : [ data-only, +spark, +druid ]
+  - HDP-Hortonworks : [ hdp-standard ]
   
   cloud :        
   - Red Hat Openshift :
-  - DCOS Enterprise Edition      : 
-  - DCOS Community Edition     : 
+  - DCOS            : [ Enterprise Edition, Community Edition ] 
+  - Kubernetes      : [ miniKube, standard ]
   - Hosts cluster   : 
-  - Docker swarm clusters   :
+  - Docker swarm    :
     
   databases:
   - MyQL cluster          :
   - MariaDB Columnstore   : 
   - Clickhouse            :
   
-  hdfs  :
-  - standard  :
-  - spark :
-  - druid :
   
   key-value-stores: 
   - redis :
-  - cassandra :
+  - cassandra : [standard ]
   - riak      :
   - memcache  :
   - couchbase :
