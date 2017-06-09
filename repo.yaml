@@ -5,71 +5,14 @@ updated:    6.3.2017
 memcloud  : 
   big-data:
   - SMACK     :       [ standard ]
-  - logstash  :
-  - ELK       :
   - hdfs-big-data   : [ data-only, +spark, +druid ]
   - HDP-Hortonworks : [ hdp-standard ]
   
-  cloud :        
-  - Red Hat Openshift :
-  - DCOS            : [ Enterprise Edition, Community Edition ] 
-  - Kubernetes      : [ miniKube, standard ]
-  - Hosts cluster   : 
-  - Docker swarm    :
-    
-  databases:
-  - MyQL cluster          :
-  - MariaDB Columnstore   : 
-  - Clickhouse            :
-  
-  
-  key-value-stores: 
-  - redis :
-  - cassandra : [standard ]
-  - riak      :
-  - memcache  :
-  - couchbase :
-  
-  storage:
+   
+  storage :
   - jbod  : [standard]
   - vNAS  : [standard, hybrid]
   - ceph  : [test-drive, certification, production-ceph-core]
   - hdfs  : [apache, horton, cloudera, mapr]
   
-  platforms:
-  - lambdafire  :
-
-  benchmark:
-  - ycsb:
-  - terasort :
   
-# StorageCloud services may be similar or different
-storagecloud :
-  databases:
-  - SQL server 2017 linux :
-  - MongoDB               :
-  - MyQL cluster          :
-  - MariaDB Columnstore   : 
-  - Clickhouse            :
-  
-  key-value-stores: 
-  - redis     :
-  - cassandra :
-  - riak      :
-  - memcache  :
-  - couchbase :
-  
-  storage:
-  - vNAS :  cw-sc-vnas.yaml
-  - ceph :  cw-ceph.yaml
-  - hdfs :  cw-hdfs.yaml
-  - glusterfs:  
-  - minio :
-  
-  platforms:
-  - lambdafire  :
-
-  
-trial-release:
-  - Kodiak-700  :
-
