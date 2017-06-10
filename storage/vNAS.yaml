@@ -16,12 +16,10 @@ standard  :
     vcpu  : 4
     ram   : 6
   disksets :
-  - diskset0 :
+  - datadisks :
       count   : 6
       size    : 120G
-  - diskset1 :
-      count   : 2
-      size    : 50G 
+
       
         
         
@@ -35,10 +33,10 @@ hybrid  :
     ram   : 6
     boot  : 15
   disksets :
-  - diskset0 :
+  - datadisks-set1 :
       count   : 6
       size    : 120G
-  - diskset1 :
+  - ZIL-diskset :
       count   : 2
       size    : 50G 
 
