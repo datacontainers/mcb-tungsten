@@ -32,14 +32,14 @@ hybrid  :
     ram   : 6
     boot  : 15G
   disksets :
-  - datadisks-set1 :
-      count   : 6
-      size    : 120G
-  - ZIL-diskset :
+  - diskset1 :
+      count   : 12
+      size    : 500G
+  - ZIL :
       count   : 2
       size    : 20G
        
-  - L2ARC-diskset :
+  - L2ARC :
       count   : 2
       size    : 50G 
 # end of cw-vnas.yaml
