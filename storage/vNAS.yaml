@@ -11,7 +11,7 @@ contact:    support@kodiakdata.com
 
 standard  :
   filename  : cw-vNAS.xml
-  params :
+  - params :
     hosts : 1
     vcpu  : 4
     ram   : 6
@@ -28,7 +28,7 @@ standard  :
         
 hybrid  :
   filename  : cw-vNASH.xml
-  params:
+  - params:
     hosts : 1
     image :
     vcpu  : 4
