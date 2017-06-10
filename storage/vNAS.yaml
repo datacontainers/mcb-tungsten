@@ -28,17 +28,19 @@ hybrid  :
   filename  : cw-vNASH.xml
   params:
     hosts : 1
-    image :
     vcpu  : 4
     ram   : 6
-    boot  : 15
+    boot  : 15G
   disksets :
   - datadisks-set1 :
       count   : 6
       size    : 120G
   - ZIL-diskset :
       count   : 2
+      size    : 20G
+       
+  - L2ARC-diskset :
+      count   : 2
       size    : 50G 
-
 # end of cw-vnas.yaml
 
