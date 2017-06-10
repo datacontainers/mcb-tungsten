@@ -17,8 +17,9 @@ standard  :
     ram   : 6
   disksets :
   - datadisks :
-      count   : 6
       size    : 120G
+      count   : 6
+
 
       
         
