@@ -18,10 +18,10 @@ standard  :
   disksets :
   - diskset0 :
       count   : 6
-      size    : 120
+      size    : 120G
   - diskset1 :
       count   : 2
-      size    : 50  
+      size    : 50G 
       
         
         
@@ -37,10 +37,10 @@ hybrid  :
   disksets :
   - diskset0 :
       count   : 6
-      size    : 120
+      size    : 120G
   - diskset1 :
       count   : 2
-      size    : 50 
+      size    : 50G 
 
 # end of cw-vnas.yaml
 
