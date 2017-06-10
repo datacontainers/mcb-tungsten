@@ -16,13 +16,13 @@ standard  :
     vcpu  : 4
     ram   : 6
   disksets :
-    - dataset0 :
-        count   : 6
-        size    : 120
-    - dataset1 :
-        count   : 2
-        size    : 50  
-        
+  - diskset0 :
+      count   : 6
+      size    : 120
+  - diskset1 :
+      count   : 2
+      size    : 50  
+      
         
         
         
@@ -35,12 +35,12 @@ hybrid  :
     ram   : 6
     boot  : 15
   disksets :
-    - dataset0 :
-        count   : 6
-        size    : 120
-    - dataset1 :
-        count   : 2
-        size    : 50 
+  - diskset0 :
+      count   : 6
+      size    : 120
+  - diskset1 :
+      count   : 2
+      size    : 50 
 
 # end of cw-vnas.yaml
 
