@@ -15,7 +15,7 @@ standard  :
     hosts : 1
     vcpu  : 4
     ram   : 6
-  DiskSets :
+  disksets :
     - dataset0 :
         count   : 6
         size    : 120
@@ -34,7 +34,7 @@ hybrid  :
     vcpu  : 4
     ram   : 6
     boot  : 15
-  DiskSets :
+  disksets :
     - dataset0 :
         count   : 6
         size    : 120
