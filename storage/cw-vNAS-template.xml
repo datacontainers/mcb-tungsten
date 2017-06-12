@@ -1,5 +1,5 @@
 <data_container_template>
-    <id>{{uname}}</id>
+    <id>TestSom</id>
     <dock_plate_id/>
     <name>vNAS</name>
     <state/>
