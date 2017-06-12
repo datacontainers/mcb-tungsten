@@ -10,7 +10,7 @@ memcloud  :
   
    
   storage:
-  - jbod  : [standard]
+  - jbod  : [standard, extended]
   - vNAS  : [standard, hybrid]
   - ceph  : [test-drive, certification, production-ceph-core]
   - hdfs  : [apache, horton, cloudera, mapr]
