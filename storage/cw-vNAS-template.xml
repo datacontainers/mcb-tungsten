@@ -27,8 +27,8 @@
             </vdisk>
             <vdisk>
                 <name>data1-%n</name>
-                <count>{{(udatadiskscount | int) /   3}}</count>
-                <type>Fast</type>
+                <count>{{( (udatadiskscount | int) /   3) | int}}</count>
+                <type>FAST</type>
                 <size>{{udatadiskssize}}</size>
                 <virtual_rack_id>1</virtual_rack_id>
             </vdisk>
