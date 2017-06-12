@@ -27,23 +27,23 @@
             </vdisk>
             <vdisk>
                 <name>data1-%n</name>
-                <count>{{datadisks.count / 3 }}</count>
+                <count>{{udatadisks.count / 3 }}</count>
                 <type>Fast</type>
-                <size>{{datadisks.size}}</size>
+                <size>{{udatadisks.size}}</size>
                 <virtual_rack_id>1</virtual_rack_id>
             </vdisk>
             <vdisk>
                 <name>data2-%n</name>
-                <count>{{datadisks.count / 3 }}</count>
+                <count>{{udatadisks.count / 3 }}</count>
                 <type>Fast</type>
-                <size>{{datadisks.size}}</size>
+                <size>{{udatadisks.size}}</size>
                 <virtual_rack_id>2</virtual_rack_id>
             </vdisk>
             <vdisk>
                 <name>data3-%n</name>
-                <count>{{datadisks.count / 3 }}</count>
+                <count>{{udatadisks.count / 3 }}</count>
                 <type>Fast</type>
-                <size>{{datadisks.size}}</size>
+                <size>{{udatadisks.size}}</size>
                 <virtual_rack_id>3</virtual_rack_id>
             </vdisk>
         </vdisk_set>

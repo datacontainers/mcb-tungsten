@@ -13,8 +13,8 @@ standard  :
   filename  : cw-vNAS-template.xml
   params :
     hosts : 1
-    vcpu  : 4
-    ram   : 6
+    vcpu  : 8
+    ram   : 16
   disksets :
   - datadisks :
       size    : 120G
