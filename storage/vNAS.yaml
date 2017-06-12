@@ -10,7 +10,7 @@ updated:    6.8.2017
 contact:    support@kodiakdata.com
 
 standard  :
-  filename  : cw-vNAS.xml
+  filename  : cw-vNAS-template.xml
   params :
     hosts : 1
     vcpu  : 4
