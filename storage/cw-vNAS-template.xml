@@ -10,7 +10,7 @@
         <name>FreeNAS</name>
         <type>kvm</type>
         <vcpu>{{uvcpu}}</vcpu>
-        <memory>16</memory>
+        <memory>{{uram}}</memory>
         <image>
             <name>FreeNAS-9.10</name>
             <type>qcow2</type>
@@ -22,28 +22,28 @@
                 <name>ZIL1-%n</name>
                 <count>2</count>
                 <type>FAST</type>
-                <size>250</size>
+                <size>0</size>
                 <virtual_rack_id>3</virtual_rack_id>
             </vdisk>
             <vdisk>
                 <name>data1-%n</name>
-                <count>2</count>
+                <count>{{datadisks.count / 3 }}</count>
                 <type>Fast</type>
-                <size>250</size>
+                <size>{{datadisks.size}}</size>
                 <virtual_rack_id>1</virtual_rack_id>
             </vdisk>
             <vdisk>
                 <name>data2-%n</name>
-                <count>2</count>
+                <count>{{datadisks.count / 3 }}</count>
                 <type>Fast</type>
-                <size>250</size>
+                <size>{{datadisks.size}}</size>
                 <virtual_rack_id>2</virtual_rack_id>
             </vdisk>
             <vdisk>
                 <name>data3-%n</name>
-                <count>2</count>
+                <count>{{datadisks.count / 3 }}</count>
                 <type>Fast</type>
-                <size>250</size>
+                <size>{{datadisks.size}}</size>
                 <virtual_rack_id>3</virtual_rack_id>
             </vdisk>
         </vdisk_set>
