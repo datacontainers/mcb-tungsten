@@ -1,5 +1,5 @@
 <data_container_template>
-    <id>TestSom-{{uname}}</id>
+    <id>{{uname}}</id>
     <dock_plate_id/>
     <name>vNAS</name>
     <state/>
@@ -9,7 +9,7 @@
     <apphost_template>
         <name>FreeNAS</name>
         <type>kvm</type>
-        <vcpu>8</vcpu>
+        <vcpu>{{uvcpu}}</vcpu>
         <memory>16</memory>
         <image>
             <name>FreeNAS-9.10</name>
