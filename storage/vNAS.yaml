@@ -12,12 +12,11 @@ contact:    support@kodiakdata.com
 standard  :
   filename  : cw-vNAS-template.xml
   params :
-    hosts : 1
     vcpu  : 8
     ram   : 16
   disksets :
   - datadisks :
-      size    : 120
+      size    : 125
       count   : 6
 
 
