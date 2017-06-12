@@ -17,7 +17,7 @@ standard  :
     ram   : 16
   disksets :
   - datadisks :
-      size    : 120G
+      size    : 120
       count   : 6
 
 
@@ -35,13 +35,13 @@ hybrid  :
   disksets :
   - diskset1 :
       count   : 12
-      size    : 500G
+      size    : 500
   - ZIL :
       count   : 2
-      size    : 20G
+      size    : 20
        
   - L2ARC :
       count   : 2
-      size    : 50G 
+      size    : 50 
 # end of cw-vnas.yaml
 
