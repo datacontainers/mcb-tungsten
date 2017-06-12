@@ -27,21 +27,21 @@
             </vdisk>
             <vdisk>
                 <name>data1-%n</name>
-                <count>{{( datadiskscount | int) /   3) | int}}</count>
+                <count>{{(( datadiskscount | int) /   3) | int}}</count>
                 <type>FAST</type>
                 <size>{{datadiskssize}}</size>
                 <virtual_rack_id>1</virtual_rack_id>
             </vdisk>
             <vdisk>
                 <name>data2-%n</name>
-                <count>{{( datadiskscount | int) /   3) | int}}</count>
+                <count>{{(( datadiskscount | int) /   3) | int}}</count>
                 <type>Fast</type>
                 <size>{{datadiskssize}}</size>
                 <virtual_rack_id>2</virtual_rack_id>
             </vdisk>
             <vdisk>
                 <name>data3-%n</name>
-                <count>{{( datadiskscount | int) /   3) | int}}</count>
+                <count>{{(( datadiskscount | int) /   3) | int}}</count>
                 <type>Fast</type>
                 <size>{{datadiskssize}}</size>
                 <virtual_rack_id>3</virtual_rack_id>
