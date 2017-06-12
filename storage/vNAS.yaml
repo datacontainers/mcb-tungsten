@@ -6,24 +6,21 @@
 #
 #
 version:    0.3
-updated:    6.8.2017
+updated:    6.11.2017
 contact:    support@kodiakdata.com
-
+#
+# Standard vNAS updated.  ss 6.11.2017
 standard  :
   filename  : cw-vNAS-template.xml
   params :
-    vcpu  : 8
-    ram   : 16
+    vcpu  : 4
+    ram   : 4
   disksets :
   - datadisks :
-      size    : 125
+      size    : 150
       count   : 6
 
-
       
-        
-        
-        
 hybrid  :
   filename  : cw-vNASH.xml
   params:
