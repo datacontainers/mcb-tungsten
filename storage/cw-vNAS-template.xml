@@ -34,16 +34,16 @@
             </vdisk>
             <vdisk>
                 <name>data2-%n</name>
-                <count>{{udatadisks.count / 3 }}</count>
+                <count>2</count>
                 <type>Fast</type>
-                <size>{{udatadisks.size}}</size>
+                <size>100</size>
                 <virtual_rack_id>2</virtual_rack_id>
             </vdisk>
             <vdisk>
                 <name>data3-%n</name>
-                <count>{{udatadisks.count / 3 }}</count>
+                <count>2</count>
                 <type>Fast</type>
-                <size>{{udatadisks.size}}</size>
+                <size>100</size>
                 <virtual_rack_id>3</virtual_rack_id>
             </vdisk>
         </vdisk_set>
