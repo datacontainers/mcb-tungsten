@@ -8,6 +8,13 @@ memcloud  :
   - hdfs-big-data   : [ data-only, +spark, +druid ]
   - HDP-Hortonworks : [ hdp-standard ]
   
+  cloud :        
+  - Red Hat Openshift :
+  - DCOS            : [ Enterprise Edition, Community Edition ] 
+  - Kubernetes      : [ miniKube, standard ]
+  - Hosts cluster   : [ Generic-cluster ]
+  - Docker swarm    : [ swarm-cluster ]
+  
    
   storage:
   - jbod  : [standard, extended]
