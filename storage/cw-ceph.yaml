@@ -13,6 +13,7 @@ template  : cw-mc-ceph-10.xml
 
 # params can be changed by cloudworks
 params  : 
+  name  : -placeholder-
   hosts : 12
   image :
   vcpu  : 4

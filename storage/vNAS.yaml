@@ -13,6 +13,7 @@ contact:    support@kodiakdata.com
 standard  :
   filename  : cw-vNAS-template.xml
   params :
+    name  : -placeholder-
     vcpu  : 4
     ram   : 4
   disksets :
@@ -24,10 +25,11 @@ standard  :
 hybrid  :
   filename  : cw-vNASH.xml
   params:
+    name  : -placeholder-
     hosts : 1
     vcpu  : 4
     ram   : 6
-    boot  : 15G
+    boot  : 15
   disksets :
   - diskset1 :
       count   : 12
