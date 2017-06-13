@@ -12,6 +12,8 @@ contact:    support@kodiakdata.com
 # Standard vNAS updated.  ss 6.11.2017
 standard  :
   filename  : cw-jbod-template.xml
+  params:
+    hosts : 0
   disksets :
   - diskset0 :
       size    : 150
