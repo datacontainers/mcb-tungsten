@@ -14,8 +14,7 @@ memcloud  :
   - Kubernetes      : [ miniKube, standard ]
   - Hosts cluster   : [ Generic-cluster ]
   - Docker swarm    : [ swarm-cluster ]
-  
-   
+     
   storage:
   - jbod  : [standard, extended]
   - vNAS  : [standard, hybrid]
