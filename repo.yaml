@@ -9,7 +9,7 @@ memcloud  :
   - HDP-Hortonworks : [ hdp-standard ]
   
   cloud :        
-  - Red Hat Openshift :
+  - Red Hat Openshift : [ standard ]
   - DCOS            : [ Enterprise Edition, Community Edition ] 
   - Kubernetes      : [ miniKube, standard ]
   - Hosts cluster   : [ Generic-cluster ]
