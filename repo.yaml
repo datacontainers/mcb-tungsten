@@ -4,7 +4,7 @@ updated:    6.11.2017
 # Memcloud services 
 memcloud  : 
   big-data:
-  - SMACK     :       [ standard ]
+  - SMACK     :       [ standard, extended ]
   - hdfs-big-data   : [ data-only, +spark, +druid ]
   - HDP-Hortonworks : [ hdp-standard ]
   
