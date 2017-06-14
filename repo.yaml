@@ -11,7 +11,7 @@ memcloud  :
   cloud :        
   - Red Hat Openshift : [ standard, mini]
   - DCOS            : [ Enterprise Edition, Community Edition ] 
-  - Kubernetes      : [ miniKube, standard ]
+  - Kubernetes      : [ miniKube, standard, extended ]
   - Hosts cluster   : [ Generic-cluster ]
   - Docker swarm    : [ swarm-cluster ]
      
