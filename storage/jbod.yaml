@@ -19,9 +19,4 @@ standard  :
   - diskset0 :
       size    : 150
       count   : 6
-  - diskset1 :
-      size    : 150
-      count   : 6
-  - diskset2 :
-      size    : 150
-      count   : 6
+ 
