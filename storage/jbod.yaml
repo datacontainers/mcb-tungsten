@@ -14,7 +14,6 @@ standard  :
   filename  : cw-jbod-template.xml
   params:
     name  : -placeholder-
-    hosts : 0
   disksets :
   - diskset0 :
       size    : 150
