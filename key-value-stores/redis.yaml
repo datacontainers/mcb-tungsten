@@ -7,7 +7,7 @@ notes:
 standard  :
   filename  : cw-redis-template.xml
   params :
-    name  : -placeholder-
+    name  : Redis_basic
     vcpu  : 4
     ram   : 4
   disksets :
