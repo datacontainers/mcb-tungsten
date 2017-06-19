@@ -3,10 +3,20 @@ updated:    6.11.2017
 
 # Memcloud services 
 memcloud  : 
-  big-data:
-  - SMACK     :       [ standard, extended ]
-  - hdfs-big-data   : [ data-only, +spark, +druid ]
+  big-data.Cloudera:  
+  - hdfs    : [standard]
+  - impala  : [standard]
+  
+  big-data.Hortonworks:  
   - HDP-Hortonworks : [ hdp-standard ]
+   
+  big-data.MapR:  
+  - mapr-community-edition : [ standard ]
+  
+  big-data-apache:
+  - Apache SMACK     :       [ standard, extended ]
+  - hdfs-big-data   : [ data-only, +spark, +druid ]
+
   
   cloud :        
   - Red Hat Openshift : [ standard, mini]
