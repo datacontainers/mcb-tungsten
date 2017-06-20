@@ -1,7 +1,7 @@
 <data_container_template>
-    <id>{{name}}</id>
+    <id></id>
     <dock_plate_id/>
-    <name>vNAS</name>
+    <name>{{name}}</name>
     <state/>
     <created_on/>
     <last_modified_by/>
