@@ -34,6 +34,9 @@ hybrid  :
   - diskset1 :
       count   : 12
       size    : 500
+  - diskset2 :
+      count   : 12
+      size    : 500
   - ZIL :
       count   : 2
       size    : 20

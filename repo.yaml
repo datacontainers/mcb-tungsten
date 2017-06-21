@@ -26,34 +26,35 @@ memcloud  :
 
   
   key-value-stores: 
-  - redis     : [ standard, cluster ]
   - cassandra : [ standard-3-node ]
-  - riak      : [ standard ]
-  - memcache  : [ standard-fixed, autoscaling ]
   - couchbase : [ standard ]
+  - redis     : [ standard, cluster ]
+  - memcache  : [ standard-fixed, autoscaling ]
+  - riak      : [ standard ]
   
   cloud :        
-  - Red Hat Openshift : [ standard, mini]
   - DCOS            : [ Enterprise Edition, Community Edition ] 
-  - Kubernetes      : [ miniKube, standard, extended ]
-  - Hosts cluster   : [ Generic-cluster ]
   - Docker swarm    : [ swarm-cluster ]
-     
+  - Hosts cluster   : [ Generic-cluster ]
+  - Kubernetes      : [ miniKube, standard, extended ]
+  - Red Hat Openshift : [ standard, mini]
+  
+       
   storage:
+  - ceph  : [test-drive, certification, production-ceph-core]
+  - gluster : [standalone gluster-docker-swarm-bootstrap ]
   - jbod  : [standard]
   - vNAS  : [standard, hybrid]
-  - ceph  : [test-drive, certification, production-ceph-core]
   - gpfs  : [standard ]
-  - hdfs  : [apache, horton, cloudera, mapr]
   
    
 # StorageCloud services may be similar or different
 storagecloud :
   storage:
+  - ceph  : [test-drive, certification, production-ceph-core]
+  - gluster : [standalone gluster-docker-swarm-bootstrap ]
   - jbod  : [standard]
   - vNAS  : [standard, hybrid]
-  - gluster : [standalone gluster-docker-swarm-bootstrap ]
-  - ceph  : [test-drive, certification, production-ceph-core]
   - gpfs  : [standard ]
 
   databases:
