@@ -18,11 +18,12 @@ memcloud  :
   - hdfs-big-data   : [ data-only, +spark, +druid ]
   
   databases:
-  - SQL server 2017 linux : [ coming-soon]
-  - MongoDB               : [ standard ]
-  - MyQL                  : [ default-single-node, 3-node-cluster ]
-  - MariaDB               : [ default-engine, +columnstore ]
   - Clickhouse            : [ test-drive, standard ]
+  - MariaDB               : [ default-engine, +columnstore ]
+  - MongoDB               : [ standard ]
+  - MySQL                  : [ default-single-node, 3-node-cluster ]
+  - SQL server 2017 linux : [ coming-soon]
+
   
   key-value-stores: 
   - redis     : [ standard, cluster ]
