@@ -16,7 +16,20 @@ memcloud  :
   big-data-apache:
   - Apache SMACK     :       [ standard, extended ]
   - hdfs-big-data   : [ data-only, +spark, +druid ]
-
+  
+  databases:
+  - SQL server 2017 linux : [ coming-soon]
+  - MongoDB               : [ standard ]
+  - MyQL                  : [ default-single-node, 3-node-cluster ]
+  - MariaDB               : [ default-engine, +columnstore ]
+  - Clickhouse            : [ test-drive, standard ]
+  
+  key-value-stores: 
+  - redis     : [ standard, cluster ]
+  - cassandra : [ standard-3-node ]
+  - riak      : [ standard ]
+  - memcache  : [ standard-fixed, autoscaling ]
+  - couchbase : [ standard ]
   
   cloud :        
   - Red Hat Openshift : [ standard, mini]
