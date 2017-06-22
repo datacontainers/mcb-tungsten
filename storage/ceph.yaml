@@ -14,8 +14,8 @@ contact:    support@kodiakdata.com
 #ss 6.11.2017
 
 
-test-drive  :
-  filename  : cwT-ceph-standard.xml
+rht-test-drive  :
+  filename  : cwT-ceph-rht-test-drive.xml
   params :
     name  : -placeholder-
     vcpu  : 4
