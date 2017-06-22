@@ -2,7 +2,7 @@
 <data_container_template>
     <id/>
     <dock_plate_id/>
-    <name>Ceph</name>
+    <name>{{name}}</name>
     <state/>
     <created_on/>
     <last_modified_by/>

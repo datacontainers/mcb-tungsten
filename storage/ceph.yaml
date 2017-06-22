@@ -14,19 +14,14 @@ contact:    support@kodiakdata.com
 #ss 6.11.2017
 
 
-rht-test-drive  :
+rht-test-drive  : # Only name is changeable
   filename  : cwT-ceph-rht-test-drive.xml
   params :
     name  : -placeholder-
-    vcpu  : 4
-    ram   : 4
-  disksets :
-  - datadisks :
-      size    : 150
-      count   : 6
+
 
       
-certification  :
+rht-certification  :
   filename  : cwT-ceph-certification.xml
   params:
     name  : -placeholder-
