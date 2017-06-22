@@ -7,12 +7,12 @@
     <last_modified_by/>
     <last_modified></last_modified>
     <apphost_template>
-        <name>FreeNAS</name>
+        <name>FreeNAS 11 - Hybrid</name>
         <type>kvm</type>
         <vcpu>{{vcpu}}</vcpu>
         <memory>{{ram}}</memory>
         <image>
-            <name>FreeNAS-9.10</name>
+            <name>FreeNAS-11</name>
             <type>qcow2</type>
             <os>FreeBSD</os>
         </image>
