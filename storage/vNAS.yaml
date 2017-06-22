@@ -44,5 +44,5 @@ hybrid  :
   - L2ARC :
       count   : 2
       size    : 50 
-# end of cw-vnas.yaml
+# end of vnas.yaml
 
