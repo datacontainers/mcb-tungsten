@@ -41,7 +41,7 @@ memcloud  :
   
        
   storage:
-  - ceph  : [test-drive, certification, production-ceph-core]
+  - ceph  : [rht-test-drive, rht-certification, production-ceph-core]
   - gluster : [standalone gluster-docker-swarm-bootstrap ]
   - jbod  : [standard]
   - vNAS  : [standard, hybrid]
@@ -51,7 +51,7 @@ memcloud  :
 # StorageCloud services may be similar or different
 storagecloud :
   storage:
-  - ceph  : [test-drive, certification, production-ceph-core]
+  - ceph  : [rht-test-drive, rht-certification, production-ceph-core]
   - gluster : [standalone gluster-docker-swarm-bootstrap ]
   - jbod  : [standard]
   - vNAS  : [standard, hybrid]
