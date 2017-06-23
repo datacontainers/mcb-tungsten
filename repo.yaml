@@ -41,7 +41,7 @@ memcloud  :
   
        
   storage:
-  - ceph  : [rht-test-drive, rht-certification, production-ceph-core]
+  - ceph  : [rht-test-drive, rht-extended-testdrive, rht-certification, production-ceph-core]
   - gluster : [standalone gluster-docker-swarm-bootstrap ]
   - jbod  : [standard]
   - vNAS  : [standard, hybrid]
@@ -70,3 +70,10 @@ storagecloud :
   - riak      : [ standard ]
   - memcache  : [ standard-fixed, autoscaling ]
   - couchbase : [ standard ]
+  
+  
+testdrives:
+  - ceph :  [ standard rht-extended-testdrive ]
+  - clickhouse : [ standard, +mysql-connector, +hbase-connector ]
+  - hdfs-tiering: [ standard ]
+  - lamdafire-proxy: [standard +tiering ]
