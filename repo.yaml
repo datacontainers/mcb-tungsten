@@ -38,7 +38,6 @@ memcloud  :
   - Hosts cluster   : [ Generic-cluster ]
   - Kubernetes      : [ miniKube, standard, extended ]
   - Red Hat Openshift : [ standard, mini]
-  
        
   storage:
   - ceph  : [rht-test-drive, rht-extended-testdrive, rht-certification, production-ceph-core]
@@ -60,7 +59,7 @@ storagecloud :
   databases:
   - SQL server 2017 linux : [ coming-soon]
   - MongoDB               : [ standard ]
-  - MyQL                  : [ default-single-node, 3-node-cluster ]
+  - MySQL                  : [ default-single-node, 3-node-cluster ]
   - MariaDB               : [ default-engine, +columnstore ]
   - Clickhouse            : [ test-drive, standard ]
   

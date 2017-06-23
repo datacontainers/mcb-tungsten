@@ -3,7 +3,6 @@ updated:    6.3.2017
 
 # Memcloud services 
 memcloud  : 
-  
   cloud :        
   - Red Hat Openshift :
   - DCOS            : [ Enterprise Edition, Community Edition ] 
@@ -33,13 +32,10 @@ memcloud  :
   platforms:
   - lambdafire  :
 
-  benchmark:
-  - ycsb:
-  - terasort :
-  
-# StorageCloud services may be similar or different
 
   
+# StorageCloud services may be similar or different
+storagecloud  :  
   storage:
   - vNAS :  cw-sc-vnas.yaml
   - ceph :  cw-ceph.yaml
@@ -49,6 +45,13 @@ memcloud  :
   
   platforms:
   - lambdafire  :
+
+
+benchmarks:
+  benchmark:
+  - ycsb:
+  - terasort :
+  
 
   
 trial-release:
