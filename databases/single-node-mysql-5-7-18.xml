@@ -23,7 +23,7 @@
             <vdisk>
                 <count>1</count>
                 <type>Fast</type>
-                <size>{{datadisksize}}</size>
+                <size>{{datadiskssize}}</size>
            </vdisk>
         </vdisk_set>
     </apphost_template>
