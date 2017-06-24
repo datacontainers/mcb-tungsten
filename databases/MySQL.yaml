@@ -15,6 +15,7 @@ default-single-node  :
     vcpu  : 4
     ram   : 16
   disksets :
-    size   : 500
+  - datadisks :
+       size   : 500
 
 # end of MySQL.yaml
