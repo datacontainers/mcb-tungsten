@@ -8,7 +8,7 @@ standard-3-node :
   params :
     name  : Cassandra-s3N
     vcpu  : 4
-    ram   : 4
+    ram   : 16
   hosts   : 3
   disksets :
   - datadisks :
