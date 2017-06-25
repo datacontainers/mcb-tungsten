@@ -72,7 +72,9 @@ storagecloud :
   
   
 testdrives:
+  storage:
   - ceph :  [ standard rht-extended-testdrive ]
-  - clickhouse : [ standard, +mysql-connector, +hbase-connector ]
   - hdfs-tiering: [ standard ]
   - lamdafire-proxy: [standard +tiering ]
+  databases: 
+  - clickhouse : [ standard, +mysql-connector, +hbase-connector ]
