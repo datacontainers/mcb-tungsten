@@ -9,7 +9,7 @@ standard-3-node :
     name  : Cassandra-s3N
     vcpu  : 4
     ram   : 16
-  hosts   : 3
+    hosts   : 3
   disksets :
   - datadisks :
       size    : 100
