@@ -13,6 +13,6 @@ standard-3-node :
     boot  : 25
   disksets :
   - datadisks :
-      size    : 100
-      count   : 3
+      .size    : 100
+      .count   : 3
 
