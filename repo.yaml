@@ -16,9 +16,16 @@ memcloud  :
   big-data-apache :
   - apache-SMACK  : [ standard, extended ]
   - hdfs-big-data : [ data-only, +spark, +druid ]
+  - kafka         : [ standard ]
+  
+  big-data-elk :
+  - elastic-search  : [ standard ] 
+  - logstash        : [ data-only ]
+  - elastic-logstash-kibana : [standard ]
+  
   
   databases:
-  - Clickhouse    : [ test-drive, standard ]
+  - Clickhouse    : [ standard ]
   - MariaDB       : [ default-engine, +columnstore ]
   - MongoDB       : [ standard ]
   - MySQL         : [ default-single-node, 3-node-cluster ]
@@ -33,9 +40,9 @@ memcloud  :
   - riak      : [ standard ]
   
   cloud :        
-  - DCOS            : [ Enterprise Edition, Community Edition ] 
+  - DCOS            : [ enterprise-edition, community-edition ] 
   - Docker-swarm    : [ swarm-cluster ]
-  - Hosts-cluster   : [ Generic-cluster ]
+  - Hosts-cluster   : [ generic-cluster ]
   - Kubernetes      : [ miniKube, standard, extended ]
   - RedHat-Openshift : [ standard, mini]
        
@@ -78,7 +85,7 @@ testdrives:
   - lamdafire-proxy:  [standard +tiering ]
   
   databases: 
-  - clickhouse :      [ standard, +mysql-connector, +hbase-connector ]
+  - clickhouse :      [ standard-testdrive, td-mysql-connector, td+-base-connector ]
   
 demos: 
   database:
