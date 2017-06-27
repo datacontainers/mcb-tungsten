@@ -29,7 +29,7 @@ memcloud  :
   - MariaDB       : [ default-engine, +columnstore ]
   - MongoDB       : [ standard ]
   - MySQL         : [ default-single-node, 3-node-cluster ]
-  - SQL server 2017 linux : [ coming-soon]
+  - SQL-server-2017-linux : [ standard]
 
   
   key-value-stores: 
@@ -64,7 +64,7 @@ storagecloud :
   - gpfs  :   [standard ]
 
   databases:
-  - SQL-server-2017-linux : [ coming-soon]
+  - SQL-server-2017-linux : [ standard ]
   - MongoDB               : [ standard ]
   - MySQL                 : [ default-single-node, 3-node-cluster ]
   - MariaDB               : [ default-engine, +columnstore ]
