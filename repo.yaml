@@ -13,15 +13,15 @@ memcloud  :
   big-data.MapR:  
   - mapr-community-edition : [ standard ]
   
-  big-data-apache:
-  - Apache SMACK     :       [ standard, extended ]
-  - hdfs-big-data   : [ data-only, +spark, +druid ]
+  big-data-apache :
+  - apache-SMACK  : [ standard, extended ]
+  - hdfs-big-data : [ data-only, +spark, +druid ]
   
   databases:
-  - Clickhouse            : [ test-drive, standard ]
-  - MariaDB               : [ default-engine, +columnstore ]
-  - MongoDB               : [ standard ]
-  - MySQL                  : [ default-single-node, 3-node-cluster ]
+  - Clickhouse    : [ test-drive, standard ]
+  - MariaDB       : [ default-engine, +columnstore ]
+  - MongoDB       : [ standard ]
+  - MySQL         : [ default-single-node, 3-node-cluster ]
   - SQL server 2017 linux : [ coming-soon]
 
   
@@ -34,10 +34,10 @@ memcloud  :
   
   cloud :        
   - DCOS            : [ Enterprise Edition, Community Edition ] 
-  - Docker swarm    : [ swarm-cluster ]
-  - Hosts cluster   : [ Generic-cluster ]
+  - Docker-swarm    : [ swarm-cluster ]
+  - Hosts-cluster   : [ Generic-cluster ]
   - Kubernetes      : [ miniKube, standard, extended ]
-  - Red Hat Openshift : [ standard, mini]
+  - RedHat-Openshift : [ standard, mini]
        
   storage:
   - ceph  :   [ production-ceph-core]
@@ -51,13 +51,13 @@ memcloud  :
 storagecloud :
   storage:
   - ceph  :   [rht-test-drive, rht-certification, production-ceph-core]
-  - gluster : [standalone gluster-docker-swarm-bootstrap ]
+  - gluster : [standalone, gluster-docker-swarm-bootstrap ]
   - jbod  :   [standard]
   - vNAS  :   [standard, hybrid]
   - gpfs  :   [standard ]
 
   databases:
-  - SQL server 2017 linux : [ coming-soon]
+  - SQL-server-2017-linux : [ coming-soon]
   - MongoDB               : [ standard ]
   - MySQL                 : [ default-single-node, 3-node-cluster ]
   - MariaDB               : [ default-engine, +columnstore ]
@@ -73,11 +73,12 @@ storagecloud :
   
 testdrives:
   storage:
-  - ceph :  [ standard, rht-extended-testdrive ]
-  - hdfs-tiering: [ standard ]
-  - lamdafire-proxy: [standard +tiering ]
+  - ceph :            [ standard, rht-extended-testdrive ]
+  - hdfs-tiering:     [ standard ]
+  - lamdafire-proxy:  [standard +tiering ]
+  
   databases: 
-  - clickhouse : [ standard, +mysql-connector, +hbase-connector ]
+  - clickhouse :      [ standard, +mysql-connector, +hbase-connector ]
   
 demos: 
   database:
