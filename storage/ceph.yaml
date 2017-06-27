@@ -40,4 +40,9 @@ production-ceph-core:
     ram   : 6
     boot  : 15
 
+standard  : # Only name is changeable, this is for testdrive
+  filename  : cwT-ceph-rht-test-drive.xml
+  params :
+    name  : -placeholder-
+      
 # end of ceph.yaml
