@@ -40,26 +40,26 @@ memcloud  :
   - Red Hat Openshift : [ standard, mini]
        
   storage:
-  - ceph  : [rht-test-drive, rht-extended-testdrive, rht-certification, production-ceph-core]
-  - gluster : [standalone gluster-docker-swarm-bootstrap ]
-  - jbod  : [standard]
-  - vNAS  : [standard, hybrid]
-  - gpfs  : [standard ]
+  - ceph  :   [ production-ceph-core]
+  - gluster : [standalone, gluster-docker-swarm-bootstrap ]
+  - jbod  :   [standard]
+  - vNAS  :   [standard, hybrid]
+  - gpfs  :   [standard ]
   
    
 # StorageCloud services may be similar or different
 storagecloud :
   storage:
-  - ceph  : [rht-test-drive, rht-certification, production-ceph-core]
+  - ceph  :   [rht-test-drive, rht-certification, production-ceph-core]
   - gluster : [standalone gluster-docker-swarm-bootstrap ]
-  - jbod  : [standard]
-  - vNAS  : [standard, hybrid]
-  - gpfs  : [standard ]
+  - jbod  :   [standard]
+  - vNAS  :   [standard, hybrid]
+  - gpfs  :   [standard ]
 
   databases:
   - SQL server 2017 linux : [ coming-soon]
   - MongoDB               : [ standard ]
-  - MySQL                  : [ default-single-node, 3-node-cluster ]
+  - MySQL                 : [ default-single-node, 3-node-cluster ]
   - MariaDB               : [ default-engine, +columnstore ]
   - Clickhouse            : [ test-drive, standard ]
   
@@ -73,8 +73,17 @@ storagecloud :
   
 testdrives:
   storage:
-  - ceph :  [ standard rht-extended-testdrive ]
+  - ceph :  [ standard, rht-extended-testdrive ]
   - hdfs-tiering: [ standard ]
   - lamdafire-proxy: [standard +tiering ]
   databases: 
   - clickhouse : [ standard, +mysql-connector, +hbase-connector ]
+  
+demos: 
+  database:
+  - clickhouse: [nyc-taxi-rides, nyse-ticker, time-series-syslog]
+  
+  
+ ## -- end of repo.yaml
+  
+  
