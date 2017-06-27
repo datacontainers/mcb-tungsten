@@ -1,25 +1,20 @@
 #
-#   Module: vnas.yaml
+#   Module: ceph.yaml
 #
 #   Applies to both memcloud and storagecloud
 #
-#
-#
-version:    0.3
-updated:    6.11.2017
-updated-by: ssikdar
+version:    0.4
+updated:    6.27.2017
+updated-by: kyih
 contact:    support@kodiakdata.com
 #
 #ceph.yaml specifies configurations for CEPH templates
 #ss 6.11.2017
 
-
 rht-test-drive  : # Only name is changeable
   filename  : cwT-ceph-rht-test-drive.xml
   params :
     name  : -placeholder-
-
-
       
 rht-certification  :
   filename  : cwT-ceph-certification.xml
@@ -36,9 +31,6 @@ rht-certification  :
       count   : 12
       size    : 500
 
-      
-      
-      
 production-ceph-core:
   filename  : production-ceph-core
   params:
@@ -48,7 +40,4 @@ production-ceph-core:
     ram   : 6
     boot  : 15
 
-
-
-
-# end of vnas.yaml
+# end of ceph.yaml
