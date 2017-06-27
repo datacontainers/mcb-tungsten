@@ -1,4 +1,3 @@
-
 <data_container_template>
     <id></id>
     <dock_plate_id/>
@@ -21,9 +20,9 @@
             <name>NAS</name>
             <vdisk>
                 <name>ZIL1-%n</name>
-                <count>2</count>
+                <count>1</count>
                 <type>FAST</type>
-                <size>0</size>
+                <size>10</size>
                 <virtual_rack_id>3</virtual_rack_id>
             </vdisk>
             <vdisk>
