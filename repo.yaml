@@ -97,6 +97,9 @@ demos:
   - menlostor : [standard]
   - lamdafire-proxy:  [standard, +tiering ] 
   
+  replicator-etl
+  - tungsten :  [mysql-mysql, mysql-hadoop, mysql-clickhouse]
+  
   
   
  ## -- end of repo.yaml
