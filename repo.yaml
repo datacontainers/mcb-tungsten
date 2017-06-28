@@ -7,6 +7,10 @@ memcloud  :
   - hdfs    : [standard]
   - impala  : [standard]
   
+  replicator-etl:
+  - tungsten-preconfigured :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs]
+  - tungsten-custom :     [configurable] 
+  
   big-data.Hortonworks:  
   - HDP-Hortonworks : [ hdp-standard ]
    
@@ -98,7 +102,7 @@ demos:
   - lamdafire-proxy:  [standard, +tiering ] 
   
   replicator-etl:
-  - tungsten :  [mysql-mysql, mysql-hadoop, mysql-clickhouse]
+  - tungsten :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs]
   
   
   
