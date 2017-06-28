@@ -97,7 +97,7 @@ demos:
   - menlostor : [standard]
   - lamdafire-proxy:  [standard, +tiering ] 
   
-  replicator-etl
+  replicator-etl:
   - tungsten :  [mysql-mysql, mysql-hadoop, mysql-clickhouse]
   
   
