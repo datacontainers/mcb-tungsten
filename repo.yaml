@@ -11,21 +11,21 @@ memcloud  :
   - HDP-Hortonworks : [ hdp-standard ]
    
   big-data.MapR:  
-  - mapr-community-edition : [ standard ]
+  - MapR-community-edition : [ standard ]
   
-  big-data-apache :
-  - apache-SMACK  : [ standard, extended ]
+  big-data.Apache :
+  - Apache-SMACK  : [ standard, extended ]
   - hdfs-big-data : [ data-only, +spark, +druid ]
   - kafka         : [ standard ]
   
   big-data-elk :
-  - elastic-search  : [ standard ] 
+  - elasticsearch  : [ standard ] 
   - logstash        : [ data-only ]
-  - elastic-logstash-kibana : [standard ]
+  - elasticsearch-logstash-kibana : [standard ]
   
   
   databases:
-  - Clickhouse    : [ standard ]
+  - clickhouse    : [ standard ]
   - MariaDB       : [ default-engine, +columnstore ]
   - MongoDB       : [ standard ]
   - MySQL         : [ default-single-node, 3-node-cluster ]
@@ -44,7 +44,7 @@ memcloud  :
   - Docker-swarm    : [ swarm-cluster ]
   - Hosts-cluster   : [ generic-cluster ]
   - Kubernetes      : [ miniKube, standard, extended ]
-  - RedHat-Openshift : [ standard, mini]
+  - Redhat-Openshift : [ standard, mini]
        
   storage:
   - ceph  :   [ production-ceph-core]
@@ -52,7 +52,7 @@ memcloud  :
   - jbod  :   [standard]
   - vNAS  :   [standard, hybrid]
   - gpfs  :   [standard ]
-  
+  - lustre  :   [standard ]
    
 # StorageCloud services may be similar or different
 storagecloud :
@@ -62,13 +62,14 @@ storagecloud :
   - jbod  :   [standard]
   - vNAS  :   [standard, hybrid]
   - gpfs  :   [standard ]
+  - lustre  :   [standard ] 
 
   databases:
   - SQL-server-2017-linux : [ standard ]
   - MongoDB               : [ standard ]
   - MySQL                 : [ default-single-node, 3-node-cluster ]
   - MariaDB               : [ default-engine, +columnstore ]
-  - Clickhouse            : [ test-drive, standard ]
+  - clickhouse            : [ test-drive, standard ]
   
   key-value-stores: 
   - redis     : [ standard, cluster ]
@@ -80,7 +81,7 @@ storagecloud :
   
 testdrives:
   storage:
-  - ceph :            [ standard, rht-extended-testdrive ]
+  - ceph :            [ rht-standard, rht-extended-testdrive ]
   - hdfs-tiering:     [ standard ]
   - lamdafire-proxy:  [standard, +tiering ]
   
@@ -88,8 +89,12 @@ testdrives:
   - clickhouse :      [ standard-testdrive, td-mysql-connector, td+-base-connector ]
   
 demos: 
-  database:
+  databases:
   - clickhouse: [nyc-taxi-rides, nyse-ticker, time-series-syslog]
+  - kx :        [nyc-taxi-rides]
+  - menlostor : [standard]
+  
+  
   
   
  ## -- end of repo.yaml
