@@ -1,4 +1,4 @@
-version:      0.5
+version:      0.5.1
 updated:    6.11.2017
 
 # Memcloud services 
@@ -92,8 +92,10 @@ demos:
   databases:
   - clickhouse: [nyc-taxi-rides, nyse-ticker, time-series-syslog]
   - kx :        [nyc-taxi-rides]
-  - menlostor : [standard]
   
+  storage:
+  - menlostor : [standard]
+  - lamdafire-proxy:  [standard, +tiering ] 
   
   
   
