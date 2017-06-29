@@ -90,11 +90,11 @@ testdrives:
   - lamdafire-proxy:  [standard, +tiering ]
   
   databases: 
-  - clickhouse :      [ standard-testdrive, td-mysql-connector, td+-base-connector ]
+  - clickhouse :      [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
   
 demos: 
   databases:
-  - clickhouse: [nyc-taxi-rides, nyse-ticker, time-series-syslog]
+  - clickhouse: [nyc-taxi-rides-dataset, top-2000-dataset, ontime-arrival-dataset]
   - kx :        [nyc-taxi-rides]
   
   storage:
