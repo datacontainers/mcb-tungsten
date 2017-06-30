@@ -1,5 +1,5 @@
-version:      0.5.1
-updated:    6.11.2017
+version:      0.5.2
+updated:    6.29.2017
 
 # Memcloud services 
 memcloud  : 
@@ -27,6 +27,9 @@ memcloud  :
   - logstash        : [ data-only ]
   - elasticsearch-logstash-kibana : [standard ]
   
+  custom :
+  - kodiak-released : [ dept-data-lake, enterprised-data-lake]
+  
   
   databases:
   - clickhouse    : [ standard ]
@@ -46,7 +49,7 @@ memcloud  :
   cloud :        
   - DCOS            : [ enterprise-edition, community-edition ] 
   - Docker-swarm    : [ swarm-cluster ]
-  - Hosts-cluster   : [ generic-cluster ]
+  - host-cluster   : [ generic-cluster ]
   - Kubernetes      : [ miniKube, standard, extended ]
   - Redhat-Openshift : [ standard, mini]
        
@@ -57,6 +60,7 @@ memcloud  :
   - vNAS  :   [standard, hybrid]
   - gpfs  :   [standard ]
   - lustre  :   [standard ]
+  - minio : [standard ]
    
 # StorageCloud services may be similar or different
 storagecloud :
@@ -72,6 +76,7 @@ storagecloud :
   - SQL-server-2017-linux : [ standard ]
   - MongoDB               : [ standard ]
   - MySQL                 : [ default-single-node, 3-node-cluster ]
+  - postgress             : [ single-node ]
   - MariaDB               : [ default-engine, +columnstore ]
   - clickhouse            : [ test-drive, standard ]
   
@@ -81,6 +86,7 @@ storagecloud :
   - riak      : [ standard ]
   - memcache  : [ standard-fixed, autoscaling ]
   - couchbase : [ standard ]
+  
   
   
 testdrives:
@@ -104,7 +110,10 @@ demos:
   replicator-etl:
   - tungsten :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs]
   
-  
+benchmarks: 
+  databases:
+  - clickhouse: [standard, large, custom]
+
   
  ## -- end of repo.yaml
   
