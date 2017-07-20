@@ -102,7 +102,7 @@ misc:
 # Placeholder for private repo 
 myrepo :
   my-private-services :
-  - none  : [none]
+  - login-to-view  : [user-services-list]
 
 
 testdrives:
