@@ -26,6 +26,11 @@ cloud-services  :
   - elasticsearch  : [ standard ] 
   - logstash        : [ data-only ]
   - elasticsearch-logstash-kibana : [standard ]
+  
+  
+  big-data-multi-stack :
+  - Apache-SMACK  : [standard]
+  - elasticsearch-logstash-kibana   :  [standard]
 
   cloud :        
   - DCOS            : [ enterprise-edition, community-edition ] 
@@ -57,11 +62,11 @@ storage-services :
   - lustre  :   [standard ] 
   
   key-value-stores: 
-  - redis     : [ standard, cluster ]
-  - cassandra : [ standard-3-node ]
-  - riak      : [ standard ]
-  - memcache  : [ standard-fixed, autoscaling ]
-  - couchbase : [ standard ]
+  - Redis     : [ standard, cluster ]
+  - Cassandra : [ standard-3-node ]
+  - Riak      : [ standard ]
+  - Memcache  : [ standard-fixed, autoscaling ]
+  - Couchbase : [ standard ]
   
   data-lakes: 
   - hdfs-single-tenant-data-lake  : [ all-flash, hybrid, tiered ] 
@@ -72,38 +77,40 @@ storage-services :
 # Database services may be similar or different
 database-services :
   sql-databases:
+  - Oracle    : [standard, RAC ]
   - SQL-server-2017-linux : [ standard ]
   - MySQL                 : [ default-single-node, 3-node-cluster ]
-  - postgress             : [ single-node ]
+  - Postgress             : [ single-node ]
   - MariaDB         : [ default-engine, +columnstore ]
-  - memsql          : [ default ]
+  - Memsql          : [ default ]
  
   mpp-columnar-databases:
-  - postgress       : [ single-node ]
   - MariaDB         : [ +columnstore ]
-  - clickhouse      : [ test-drive, standard ]
-  - vertica         : [ test-drive, standard ]
+  - Clickhouse      : [ test-drive, standard ]
+  - Vertica         : [ test-drive, standard ]
 
   nosql-databases:
   - MongoDB               : [ standard ]
-  - cassandra             : [ multi-node]
+  - Cassandra             : [ multi-node]
 
   analytics:
-  - druid   : [standard]
-  - drill   : [standard]
-  - impala  : [standard]
-  - spark   : [standard]
+  - Druid   : [standard]
+  - Drill   : [standard]
+  - Impala  : [standard]
+  - Spark   : [standard]
   
   
 misc:
-  custom :
-  - none  : [none]
+  multi-stack-projects :
+  - SMACK  : [standard]
+  - ELK   :  [standard]
  
 # Placeholder for private repo 
 myrepo :
+  my-multi-stack-services :
+  - login-to-view  : [user-services-list]
   my-private-services :
   - login-to-view  : [user-services-list]
-
 
 testdrives:
   storage:
