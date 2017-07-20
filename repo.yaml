@@ -2,7 +2,7 @@ version:      0.5.2
 updated:    6.29.2017
 
 # Memcloud services 
-memcloud  : 
+cloud-services  : 
   big-data.Cloudera:  
   - hdfs    : [standard]
   - impala  : [standard]
@@ -26,9 +26,6 @@ memcloud  :
   - elasticsearch  : [ standard ] 
   - logstash        : [ data-only ]
   - elasticsearch-logstash-kibana : [standard ]
-  
-  custom :
-  - kodiak-released : [ dept-data-lake, enterprised-data-lake] 
 
   cloud :        
   - DCOS            : [ enterprise-edition, community-edition ] 
@@ -47,7 +44,7 @@ memcloud  :
   - minio : [standard ]
    
 # StorageCloud services may be similar or different
-storagecloud :
+storage-services :
   storage:
   - jbod  :   [standard]
   - vNAS  :   [standard, hybrid]
@@ -64,6 +61,12 @@ storagecloud :
   - riak      : [ standard ]
   - memcache  : [ standard-fixed, autoscaling ]
   - couchbase : [ standard ]
+  
+  data-lakes: 
+  - hdfs-single-tenant-data-lake  : [ all-flash, hybrid, tiered ] 
+  - hdfs-multi-tenant-data-lake   : [ all-flash, hybrid, tiered ] 
+  
+  
 
 # Database services may be similar or different
 database-services :
