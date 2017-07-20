@@ -86,7 +86,16 @@ storagecloud :
   - riak      : [ standard ]
   - memcache  : [ standard-fixed, autoscaling ]
   - couchbase : [ standard ]
+
+# Database services may be similar or different
+database-services :
+  databases:
+  - SQL-server-2017-linux : [ standard ]
+  - MySQL                 : [ default-single-node, 3-node-cluster ]
+  - postgress             : [ single-node ]
+  - MariaDB               : [ default-engine, +columnstore ]
   
+
   
   
 testdrives:
