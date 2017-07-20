@@ -72,13 +72,7 @@ storagecloud :
   - gpfs  :   [standard ]
   - lustre  :   [standard ] 
 
-  databases:
-  - SQL-server-2017-linux : [ standard ]
-  - MongoDB               : [ standard ]
-  - MySQL                 : [ default-single-node, 3-node-cluster ]
-  - postgress             : [ single-node ]
-  - MariaDB               : [ default-engine, +columnstore ]
-  - clickhouse            : [ test-drive, standard ]
+
   
   key-value-stores: 
   - redis     : [ standard, cluster ]
@@ -89,14 +83,31 @@ storagecloud :
 
 # Database services may be similar or different
 database-services :
-  databases:
+  sql-databases:
   - SQL-server-2017-linux : [ standard ]
   - MySQL                 : [ default-single-node, 3-node-cluster ]
   - postgress             : [ single-node ]
   - MariaDB               : [ default-engine, +columnstore ]
-  
+ 
+  mpp-databases:
+  - SQL-server-2017-linux : [ standard ]
+  - MongoDB               : [ standard ]
+  - MySQL                 : [ default-single-node, 3-node-cluster ]
+  - postgress             : [ single-node ]
+  - MariaDB               : [ default-engine, +columnstore ]
+  - clickhouse            : [ test-drive, standard ]
 
-  
+  nosql-databases:
+  - MongoDB               : [ standard ]
+  - cassandra             : [5-node]
+
+analytics:
+  - druid   : [standard]
+  - drill   : [standard]
+  - impala  : [standard]
+  - spark   : [standard]
+
+
   
 testdrives:
   storage:
