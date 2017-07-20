@@ -76,7 +76,6 @@ database-services :
   - MySQL                 : [ default-single-node, 3-node-cluster ]
   - postgress             : [ single-node ]
   - MariaDB         : [ default-engine, +columnstore ]
-  - MariaDB         : [ default-engine, +columnstore ]
   - memsql          : [ default ]
  
   mpp-columnar-databases:
