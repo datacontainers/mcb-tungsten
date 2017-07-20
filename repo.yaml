@@ -30,7 +30,6 @@ memcloud  :
   custom :
   - kodiak-released : [ dept-data-lake, enterprised-data-lake]
   
-  
   databases:
   - clickhouse    : [ standard ]
   - MariaDB       : [ default-engine, +columnstore ]
