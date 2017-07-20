@@ -98,6 +98,12 @@ database-services :
 misc:
   custom :
   - none  : [none]
+ 
+# Placeholder for private repo 
+myrepo :
+  my-private-services :
+  - none  : [none]
+
 
 testdrives:
   storage:
