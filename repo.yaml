@@ -85,14 +85,17 @@ database-services :
   - MongoDB               : [ standard ]
   - cassandra             : [5-node]
 
-analytics:
+  analytics:
   - druid   : [standard]
   - drill   : [standard]
   - impala  : [standard]
   - spark   : [standard]
-
-
   
+  
+misc:
+  custom :
+  - none  : [none]
+
 testdrives:
   storage:
   - ceph :            [ rht-standard, rht-extended-testdrive ]
