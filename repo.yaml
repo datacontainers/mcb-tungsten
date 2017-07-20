@@ -28,23 +28,8 @@ memcloud  :
   - elasticsearch-logstash-kibana : [standard ]
   
   custom :
-  - kodiak-released : [ dept-data-lake, enterprised-data-lake]
-  
-  databases:
-  - clickhouse    : [ standard ]
-  - MariaDB       : [ default-engine, +columnstore ]
-  - MongoDB       : [ standard ]
-  - MySQL         : [ default-single-node, 3-node-cluster ]
-  - SQL-server-2017-linux : [ standard]
+  - kodiak-released : [ dept-data-lake, enterprised-data-lake] 
 
-  
-  key-value-stores: 
-  - cassandra : [ standard-3-node ]
-  - couchbase : [ standard ]
-  - redis     : [ standard, cluster ]
-  - memcache  : [ standard-fixed, autoscaling ]
-  - riak      : [ standard ]
-  
   cloud :        
   - DCOS            : [ enterprise-edition, community-edition ] 
   - Docker-swarm    : [ swarm-cluster ]
