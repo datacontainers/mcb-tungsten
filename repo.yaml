@@ -33,6 +33,7 @@ cloud-services  :
   - host-cluster   : [ generic-cluster ]
   - Kubernetes      : [ miniKube, standard, extended ]
   - Redhat-Openshift : [ standard, mini]
+  - bunch-of-nodes : [ default, multinode ]
        
   storage:
   - ceph  :   [ production-ceph-core]
@@ -74,19 +75,19 @@ database-services :
   - SQL-server-2017-linux : [ standard ]
   - MySQL                 : [ default-single-node, 3-node-cluster ]
   - postgress             : [ single-node ]
-  - MariaDB               : [ default-engine, +columnstore ]
+  - MariaDB         : [ default-engine, +columnstore ]
+  - MariaDB         : [ default-engine, +columnstore ]
+  - memsql          : [ default ]
  
-  mpp-databases:
-  - SQL-server-2017-linux : [ standard ]
-  - MongoDB               : [ standard ]
-  - MySQL                 : [ default-single-node, 3-node-cluster ]
-  - postgress             : [ single-node ]
-  - MariaDB               : [ default-engine, +columnstore ]
-  - clickhouse            : [ test-drive, standard ]
+  mpp-columnar-databases:
+  - postgress       : [ single-node ]
+  - MariaDB         : [ +columnstore ]
+  - clickhouse      : [ test-drive, standard ]
+  - vertica         : [ test-drive, standard ]
 
   nosql-databases:
   - MongoDB               : [ standard ]
-  - cassandra             : [5-node]
+  - cassandra             : [ multi-node]
 
   analytics:
   - druid   : [standard]
