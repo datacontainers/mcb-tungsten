@@ -71,8 +71,6 @@ storagecloud :
   - vNAS  :   [standard, hybrid]
   - gpfs  :   [standard ]
   - lustre  :   [standard ] 
-
-
   
   key-value-stores: 
   - redis     : [ standard, cluster ]
