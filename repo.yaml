@@ -3,77 +3,20 @@ updated:    6.29.2017
 
 # Memcloud services 
 cloud-services  : 
-  big-data.Cloudera:  
-  - hdfs    : [standard]
-  - impala  : [standard]
-  
+
   replicator-etl:
   - tungsten-preconfigured :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs]
   - tungsten-custom :     [configurable] 
   
-  big-data.Hortonworks:  
-  - HDP-Hortonworks : [ hdp-standard ]
-   
-  big-data.MapR:  
-  - MapR-community-edition : [ standard ]
-  
-  big-data.Apache :
-  - Apache-SMACK  : [ standard, extended ]
-  - hdfs-big-data : [ data-only, +spark, +druid ]
-  - kafka         : [ standard ]
-  
-  big-data-elk :
-  - elasticsearch  : [ standard ] 
-  - logstash        : [ data-only ]
-  - elasticsearch-logstash-kibana : [standard ]
-  
-  
-  big-data-multi-stack :
-  - Apache-SMACK  : [standard]
-  - elasticsearch-logstash-kibana   :  [standard]
-
-  cloud :        
-  - DCOS            : [ enterprise-edition, community-edition ] 
-  - Docker-swarm    : [ swarm-cluster ]
-  - host-cluster   : [ generic-cluster ]
-  - Kubernetes      : [ miniKube, standard, extended ]
-  - Redhat-Openshift : [ standard, mini]
-  - bunch-of-nodes : [ default, multinode ]
-       
-  storage:
-  - ceph  :   [ production-ceph-core]
-  - gluster : [standalone, gluster-docker-swarm-bootstrap ]
-  - jbod  :   [standard]
-  - vNAS  :   [standard, hybrid]
-  - gpfs  :   [standard ]
-  - lustre  :   [standard ]
-  - minio : [standard ]
    
 # StorageCloud services may be similar or different
 storage-services :
-  storage:
-  - jbod  :   [standard]
-  - vNAS  :   [standard, hybrid]
-  
-  clusters:
-  - ceph  :   [rht-test-drive, rht-certification, production-ceph-core]
-  - gluster : [standalone, gluster-docker-swarm-bootstrap ]
-  - gpfs  :   [standard ]
-  - lustre  :   [standard ] 
-  
-  key-value-stores: 
-  - Redis     : [ standard, cluster ]
-  - Cassandra : [ standard-3-node ]
-  - Riak      : [ standard ]
-  - Memcache  : [ standard-fixed, autoscaling ]
-  - Couchbase : [ standard ]
-  
+
   data-lakes: 
   - hdfs-single-tenant-data-lake  : [ all-flash, hybrid, tiered ] 
   - hdfs-multi-tenant-data-lake   : [ all-flash, hybrid, tiered ] 
   
   
-
 # Database services may be similar or different
 database-services :
   sql-databases:
@@ -91,14 +34,7 @@ database-services :
 
   nosql-databases:
   - MongoDB               : [ standard ]
-  - Cassandra             : [ multi-node]
-
-  analytics:
-  - Druid   : [standard]
-  - Drill   : [standard]
-  - Impala  : [standard]
-  - Spark   : [standard]
-  
+  - Cassandra             : [ multi-node]  
   
 misc:
   multi-stack-projects :
