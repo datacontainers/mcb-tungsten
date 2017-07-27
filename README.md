@@ -1,14 +1,10 @@
 # data-container-templates
 This project contains the list of Data Container Templates for Tungsten and other Continuent open-source replicators provided by Kodiak Data. 
 
-Contact:   robert@kodiakdata.com
-
 
 ## Directory List
 
-   
-   
-   Some templates may show up in multiple directories
+   - Some templates may show up in multiple directories
 
 ## WARNING:  gh-pages branch
 	The gh-pages branch is used for documentation and is published out.
