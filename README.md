@@ -3,7 +3,7 @@ This project contains the list of Data Container Templates for Tungsten and othe
 
 Contact:   robert@kodiakdata.com
 
-This is the **gh-pages** branch published to the[ Tugnsten Info Website](tungsteninfo.memcloud.works)
+This is the **gh-pages** branch published to the[ Tugnsten Info Website](http://tungsteninfo.memcloud.works)
 
 ## WARNING:  gh-pages branch
 	The gh-pages branch is used for documentation and is published out.
