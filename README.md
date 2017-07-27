@@ -15,5 +15,12 @@ Contact:   robert@kodiakdata.com
 	Please do not mess with it unless you are familiar of github-pages and we set 
 	it up.
 	
+Contact:
+	Continuent:
+	KodiakData:		kien@kodiakdata.com
+	
+	
+	
+
 	
 	
