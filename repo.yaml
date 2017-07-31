@@ -1,11 +1,11 @@
 version:      0.5.2
-updated:    6.29.2017
+updated:    7.30.2017
 
 # Memcloud services 
 cloud-services  : 
 
   replicator-etl:
-  - tungsten-preconfigured :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs]
+  - tungsten-preconfigured :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs, mysql-couchbase]
   - tungsten-custom :     [configurable] 
   
    
@@ -50,7 +50,6 @@ myrepo :
 
 testdrives:
   storage:
-  - ceph :            [ rht-standard, rht-extended-testdrive ]
   - hdfs-tiering:     [ standard ]
   - lamdafire-proxy:  [standard, +tiering ]
   
