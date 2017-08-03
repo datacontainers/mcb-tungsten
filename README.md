@@ -13,7 +13,7 @@ This project contains the list of Data Container Templates for Tungsten and othe
 	
 #
 Contact:
-	Continuent:
+	Continuent:             mc.brown@continuent.com
 	KodiakData:		kien@kodiakdata.com
 	
 	
