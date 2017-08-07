@@ -42,16 +42,12 @@ misc:
   - ELK   :  [standard]
  
 # Placeholder for private repo 
-myrepo :
-  my-multi-stack-services :
-  - login-to-view  : [user-services-list]
-  my-private-services :
-  - login-to-view  : [user-services-list]
+#myrepo :
+
 
 testdrives:
   storage:
   - hdfs-tiering:     [ standard ]
-  - lamdafire-proxy:  [standard, +tiering ]
   
   databases: 
   - clickhouse :      [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
@@ -68,9 +64,9 @@ demos:
   replicator-etl:
   - tungsten :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs]
   
-benchmarks: 
-  databases:
-  - clickhouse: [standard, large, custom]
+#benchmarks: 
+#  databases:
+#  - clickhouse: [standard, large, custom]
 
   
  ## -- end of repo.yaml
