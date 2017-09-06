@@ -20,10 +20,8 @@ storage-services :
 # Database services may be similar or different
 database-services :
   sql-databases:
-  - Oracle    : [standard, RAC ]
-  - SQL-server-2017-linux : [ standard ]
-  - MySQL                 : [ default-single-node, 3-node-cluster ]
-  - Postgress             : [ single-node ]
+  - Oracle          : [standard, RAC ]
+  - MySQL Cluster   : [ 3-node-cluster ]
   - MariaDB         : [ default-engine, +columnstore ]
   - Memsql          : [ default ]
  
@@ -32,22 +30,12 @@ database-services :
   - Clickhouse      : [ test-drive, standard ]
   - Vertica         : [ test-drive, standard ]
 
+
   nosql-databases:
   - MongoDB               : [ standard ]
   - Cassandra             : [ multi-node]  
+  - 
   
-misc:
-  multi-stack-projects :
-  - SMACK  : [standard]
-  - ELK   :  [standard]
- 
-# Placeholder for private repo 
-myrepo :
-  my-multi-stack-services :
-  - login-to-view  : [user-services-list]
-  my-private-services :
-  - login-to-view  : [user-services-list]
-
 testdrives:
   storage:
   - hdfs-tiering:     [ standard ]
