@@ -1,49 +1,11 @@
-version:      0.5.2
-updated:    7.30.2017
+version:      0.5.3
+updated:    3.16.2018
 
-# Memcloud services 
-cloud-services  : 
-
-  replicator-etl:
-  - tungsten-preconfigured :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs, mysql-couchbase]
-  - tungsten-custom :     [configurable] 
-  
-   
-# StorageCloud services may be similar or different
-storage-services :
-
-  data-lakes: 
-  - hdfs-single-tenant-data-lake  : [ all-flash, hybrid, tiered ] 
-  - hdfs-multi-tenant-data-lake   : [ all-flash, hybrid, tiered ] 
-  
-  
-# Database services may be similar or different
-database-services :
-  sql-databases:
-  - Oracle          : [standard, RAC ]
-  - MySQL Cluster   : [ 3-node-cluster ]
-  - MariaDB         : [ default-engine, +columnstore ]
-  - Memsql          : [ default ]
- 
-  mpp-columnar-databases:
-  - MariaDB         : [ +columnstore ]
-  - Clickhouse      : [ test-drive, standard ]
-  - Vertica         : [ test-drive, standard ]
-
-  nosql-databases:
-  - MongoDB               : [ standard ]
-  - Cassandra             : [ multi-node]  
-  
 testdrives:
-  storage:
-  - hdfs-tiering:     [ standard ]
-  
-  databases: 
-  - clickhouse :      [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
   
 demos: 
   replicator-etl:
-  - tungsten :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs]
+  - tungsten :  [mongo-mysql]
   
  ## -- end of repo.yaml
   
