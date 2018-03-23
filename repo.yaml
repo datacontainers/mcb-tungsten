@@ -5,8 +5,6 @@ testdrives:
   
 demos: 
   replicator-etl:
-  - tungsten :  [mongo-mysql]
+  - tungsten :  [mysql-mongo]
   
  ## -- end of repo.yaml
-  
-  
