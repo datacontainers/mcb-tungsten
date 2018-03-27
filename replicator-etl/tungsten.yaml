@@ -2,6 +2,6 @@ version:    0.1
 updated:    3.27.2018
 contact:    hao@kodiakdata.com
 
-standard-tungsten-demo:
+mysql-mongo:
   demokey:    mcb-tungsten
 
